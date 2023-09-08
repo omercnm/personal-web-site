@@ -53,12 +53,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-max mx-auto lg:mx-0"
             >
-              Department of Mathematics at Karadeniz Technical University
-              student. Because of my interest in software Workintech
-              Corporation's 6-month Full Stack program I participated in 60
-              projects in total, receiving 960 hours of training. I have
-              developed creativity, research and solution-oriented I am
-              confident in my work competencies.
+              Hi, I'm Ömer. I'm a full-stack developer. If you are looking for a
+              Developer who to craft solid and scrable frontend product with
+              great user experiences. Let's shake hands with me
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.5)}
@@ -67,10 +64,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <button
+                className="btn btn-lg"
+                onClick={() =>
+                  (window.location.href = "mailto:omercnm23@gmail.com")
+                }
+              >
+                Contact Me
+              </button>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}
@@ -80,16 +81,16 @@ const Banner = () => {
               className="flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0"
             >
-              <a href="#">
+              <a href="https://github.com/omercnm">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/%C3%B6mer-can%C4%B1m-195641267/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/omercnm61">
                 <FaTwitter />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/omercanim/">
                 <FaInstagram />
               </a>
             </motion.div>
